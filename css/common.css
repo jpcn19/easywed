@@ -1,0 +1,264 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: none;
+}
+textarea{
+    overflow:auto;
+}
+/* 元素获得焦点时的样式! */
+:focus {
+    outline: 0;
+}
+
+/* 特殊文本的样式! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* 细线表格样式 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a{text-decoration:none;color:#000;}
+a:hover{color:#97bf56;}
+.clx{*zoom: 1;}
+.clx:after{clear:both;content:".";display:block;height:0;visibility:hidden;color: #ffffff;}
+
+/*common样式*/
+.box{
+    width: 1190px;
+    margin: 0 auto;
+}
+.trans{
+    -webkit-transition: all .3s ease-out;
+    -moz-transition:all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.icon{
+    display: inline-block;
+    vertical-align: middle;
+    background: transparent url(../images/common/common.png) no-repeat;
+}
+/*head*/
+.header{}
+.header-logo{
+    text-align: center;
+    width: 140px;
+    height: 100px;
+    background-color: #97bf56;
+    color: #fff;
+    padding: 10px 0;
+    float: left;
+}
+.header-logo .icon{
+    width: 102px;
+    height: 70px;
+}
+.header-logo p{
+    margin-top: 10px;
+}
+.header-nav{
+    float: left;
+    width: 750px;
+    padding-left: 15px;
+}
+.header-nav li{
+    float: left;
+    line-height: 120px;
+    padding: 0 17px;
+}
+.header-nav li a{}
+.header-nav-on{}
+.header-login-box{
+    width: 275 px;
+    float: left;
+    border-top: 2px solid #9ec462;
+}
+.header-login-li{}
+.header-login-li li{
+    float: left;
+    line-height: 42px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.header-login-li li:first-child{margin-left:0;}
+.header-search{
+    clear: both;
+}
+.header-search input{
+    width: 240px;
+    border: none;
+    background-color: #f1f1f1;
+    height: 32px;
+    vertical-align: middle;
+}
+.header-search .icon{
+    width:38px;
+    height:32px;
+    background-color:#97bf56;
+    background-position:-102px 5px;
+}
+/*content*/
+
+/*footer*/
+.footer{
+    width: 100%;
+    background-color: #f6f6f6;
+    min-width: 1190px;
+    padding-top: 40px;
+}
+.footer-box {}
+.footer-link{}
+.footer-link > li{
+    float: left;
+    width: 275px;
+    margin-left: 29px;
+    height: 320px;
+}
+.footer-link > li:first-child{
+    margin-left:0;
+}
+.footer-fw{}
+.footer-link > li > div{
+    height: 82px;
+    border-bottom: 2px solid #eaeaea;
+    margin-bottom: 20px;
+}
+.footer-link > li > div h3{
+    display: inline-block;
+    width: 208px;
+    font-size: 12px;
+    color: #666;
+}
+.footer-link > li > div h3 span{
+    font-size: 18px;
+    color: #010101;
+    display: block;
+    padding: 10px 0;
+}
+.footer-link > li > p {
+    line-height: 26px;
+    font-size: 16px;
+    color: #666;
+}
+.footer-link > li > p span{
+    font-size: 14px;
+    color: #999;
+}
+.footer-link > li > ul {}
+.footer-link > li > ul li{
+    padding-left: 15px;
+    background: transparent url(../images/common/common.png) -455px -85px no-repeat;
+    margin: 5px 0 10px 0;
+}
+.footer-link > li > ul li a{
+    font-size: 12px;
+    color: #999;
+}
+
+
+.footer-fw .icon{
+    width: 55px;
+    height: 50px;
+    background-position: -143px 0;
+    margin: 5px 5px 0 0;
+    vertical-align: top;
+    *float: left;
+}
+.footer-pz .icon{
+    width: 43px;
+    height: 60px;
+    background-position: -198px 0;
+    margin: 5px;
+    vertical-align: top;
+    *float: left;
+}
+.footer-zy .icon{
+    width: 54px; height: 60px;
+    background-position: -240px 0; margin: 4px;
+    vertical-align: top;
+    *float: left;
+}
+.footer-ty .icon{
+    width: 34px; height: 60px;
+    background-position: -293px 0;
+    margin: 5px 10px;
+    vertical-align: top;
+    *float: left;
+}
+
+.footer-copy{
+    position: relative;
+    padding-left: 100px;
+    border-top: 1px solid #ebebeb;
+    padding-top: 20px;
+    *padding-top: 0;
+}
+.footer-copy .icon{
+    width: 60px;
+    height: 45px;
+    background-position: -103px -52px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+.footer-copy p{
+    font-size: 12px;
+    color: #999;
+    padding: 6px 0;
+}
+.footer-copy p a{
+    color: #999;
+    margin-right: 50px;
+}
+
+/*按钮*/
+.btn-a{
+
+}
+.btn-a:hover{
+
+}
+
+/*头像*/
+.head1{
+
+}
+.head2{
+
+}
